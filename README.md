@@ -11,6 +11,12 @@ This sensor is also very versatile thanks to its I2C and SPI communication bus
 
 More information for this repo can be found on the [Drotek.fr product page](http://www.drotek.fr/shop/fr/home/677-imu-9dof-lsm9ds0-stmicroelectronics.html)
 
+Wiring and Test
+-------------------
+Use the image below to wire your card for use I2C
+[![BMP280 breakout board](http://www.drotek.com/ftp/photo/drotek%20bmp280%20I2C.jpg)
+As you can see they are two kind of connector available for I2C wiring 
+
 Repository Contents
 -------------------
 * **/Software** - Any Adafruit Arduino library needed to used this product, 
