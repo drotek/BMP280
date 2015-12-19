@@ -1,15 +1,15 @@
 BMP280 Barometric Pressure and Temperature sensor
 ==================================================
 
-[![BMP280 breakout board](http://www.drotek.fr/shop/2285-thickbox_square_zen/imu-9dof-lsm9ds0-stmicroelectronics.jpg)  
-*BMP280 breakout board *](http://www.drotek.fr/shop/fr/home/677-imu-9dof-lsm9ds0-stmicroelectronics.html)
+[![BMP280 breakout board](http://www.drotek.com/shop/2550-thickbox_square_zen/bmp280-breakout-board.jpg)  
+*BMP280 breakout board *](http://www.drotek.com/shop/fr/home/751-bmp280-breakout-board.html)
 
 The Bosch BMP280 chip incorporates two sensors: a Barometric pressure sensor and an other one for temperature.
 this cheap but accurate sensor is perfect for all weather applications thanks to the ± 1hPa / ± 1 ° C accuracy.
 With the barometer, this sensor can also be used as an altimeter with an accuracy of ± 1 meter.
 This sensor is also very versatile thanks to its I2C and SPI communication bus
 
-More information for this repo can be found on the [Drotek.fr product page](http://www.drotek.fr/shop/fr/home/677-imu-9dof-lsm9ds0-stmicroelectronics.html)
+More information for this repo can be found on the [Drotek.com product page](http://www.drotek.com/shop/fr/home/751-bmp280-breakout-board.html)
 
 Wiring and Test
 -------------------
