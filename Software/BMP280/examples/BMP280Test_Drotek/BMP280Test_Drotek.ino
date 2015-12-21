@@ -24,10 +24,10 @@ Please follow the 3 step configuration below.
 /////////////////////////////////////////////////////////////////////////////////////////////
                                                                                            //
 //Last step(only for software SPI), write the Pin used for software SPI//                  //
-#define BMP_SCK 39                                                                         //
-#define BMP_MISO 36                                                                        //
-#define BMP_MOSI 38                                                                        //
-#define BMP_CS 37                                                                          //
+#define BMP_SCK 52                                                                         //
+#define BMP_MISO 50                                                                        //
+#define BMP_MOSI 51                                                                        //
+#define BMP_CS 53                                                                          //
 /////////////////////////////////////////////////////////////////////////////////////////////
 
 #ifdef I2C
