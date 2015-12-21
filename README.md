@@ -1,4 +1,4 @@
-BMP280 Barometric Pressure and Temperature sensor
+﻿BMP280 Barometric Pressure and Temperature sensor
 ==================================================
 
 
@@ -11,8 +11,8 @@ More information for this repo can be found on the [Drotek.com product page](htt
 
 Wiring and Test
 -------------------
-On the exemple include with BMP280 arduino library you can use 3 types of wiring: I2C, Hardware SPI or Software SPI 
-Just Uncomment 1 of the 3 lines and write the output used for Software SPI.
+On the exemple include with BMP280 arduino library you can use 3 types of wiring: I2C, Hardware SPI or Software SPI with Arduino UNO or Arduino MEGA2560
+in the program you simply need to follow the 3 steps configuration, everything is explained.
 
 Use the image below to wire your card for I2C use. 
 [![BMP280 breakout board](http://www.drotek.com/ftp/photo/drotek%20bmp280%20I2C.jpg)
@@ -20,18 +20,8 @@ Use the image below to wire your card for I2C use.
 Use the image below to wire your card for Hardware SPI. 
 [![BMP280 breakout board](http://www.drotek.com/ftp/photo/drotek%20bmp280%20SPI%20hard.jpg)
 
-For arduino Méga 2560 you need to change the numbers of outputs like this:
-
-			#define BMP_SCK 52
-			#define BMP_MISO 50
-			#define BMP_MOSI 51 
-			#define BMP_CS 53
-
-
 Use the image below to wire your card for Software SPI. 
 [![BMP280 breakout board](http://www.drotek.com/ftp/photo/drotek%20bmp280%20SPI%20soft.jpg)
-
-In this case you need to change the numbers of outputs according to your wiring. 
 
 Repository Contents
 -------------------
