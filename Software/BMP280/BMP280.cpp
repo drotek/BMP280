@@ -16,7 +16,7 @@
 #include "Arduino.h"
 #include <Wire.h>
 #include <SPI.h>
-#include "Adafruit_BMP280.h"
+#include "BMP280.h"
 
 
 /***************************************************************************
@@ -227,11 +227,11 @@ float Adafruit_BMP280::readTemperature(void)
   adc_T >>= 4;
 
   var1  = ((((adc_T>>3) - ((int32_t)_bmp280_calib.dig_T1 <<1))) *
-	   ((int32_t)_bmp280_calib.dig_T2)) >> 11;
+       ((int32_t)_bmp280_calib.dig_T2)) >> 11;
 
   var2  = (((((adc_T>>4) - ((int32_t)_bmp280_calib.dig_T1)) *
-	     ((adc_T>>4) - ((int32_t)_bmp280_calib.dig_T1))) >> 12) *
-	   ((int32_t)_bmp280_calib.dig_T3)) >> 14;
+         ((adc_T>>4) - ((int32_t)_bmp280_calib.dig_T1))) >> 12) *
+       ((int32_t)_bmp280_calib.dig_T3)) >> 14;
 
   t_fine = var1 + var2;
 

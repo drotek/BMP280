@@ -22,7 +22,7 @@
  #include "WProgram.h"
 #endif
 
-#include <Adafruit_Sensor.h>
+#include <Sensor_Master.h>
 
 #ifdef __AVR_ATtiny85__
  #include "TinyWireM.h"
