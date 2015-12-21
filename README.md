@@ -11,8 +11,8 @@ More information for this repo can be found on the [Drotek.com product page](htt
 
 Wiring and Test
 -------------------
-On the exemple include with BMP280 arduino library you can use 3 types of wiring: I2C, Hardware SPI or Software SPI with Arduino UNO or Arduino MEGA2560
-in the program you simply need to follow the 3 steps configuration, everything is explained.
+On the exemple include with BMP280 arduino library you can use 3 types of wiring: I2C, Hardware SPI or Software SPI with Arduino UNO or Arduino MEGA2560.
+In this program you simply need to follow the 3 steps configuration, everything is explained.
 
 Use the image below to wire your card for I2C use. 
 [![BMP280 breakout board](http://www.drotek.com/ftp/photo/drotek%20bmp280%20I2C.jpg)
