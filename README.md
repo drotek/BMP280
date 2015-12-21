@@ -25,7 +25,7 @@ Use the image below to wire your card for Software SPI.
 
 Repository Contents
 -------------------
-* **/Software** - Any Adafruit Arduino library needed to used this product, 
+* **/Software** - Any Arduino library needed to used this product. !!please note that the two library include in this folder are required.
 * **/Hardware** - PDF design files
 
 License Information
